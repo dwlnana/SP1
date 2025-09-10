@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #faf9f6;    
+}
+.header-content{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+
+}
+
+.header-bar{
+    padding: 0px;
+    background-color: #007e94;
+    display: flex;
+    align-items: center;
+}
+
+.museum-name{
+    font-size: 20px;
+    font-weight: 600;
+    color: #faf9f6;
+}
+
+/*for mobile screens */
+
+@media (max-width: 600px){
+    .header-bar{
+        padding: 0;
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+    .header-content{
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        gap: 5px;
+    }
+    .logo{
+        height: 80px;
+        width: auto;
+    }
+    .museum-name{
+        font-size: 18px;
+    }
+}
