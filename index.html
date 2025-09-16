@@ -19,7 +19,7 @@
                     <li><a href="./visit.html">Visit us</a></li>
                     <li><a href="./contact.html">Contact us</a></li>
                     <li><a href="./involved.html">Get involved</a></li>
-                    <li><a href="./explore.html">Explore-us</a></li>
+                    <li><a href="./about-us.html">About us</a></li>
                 </ul>
             </nav>
         </section>
@@ -27,12 +27,91 @@
     <section class="hero"></section>
     <main>
         <h1>Categories</h1>
+        <h2 class="h2-popup">Special Events and Exhibition</h2>
+<!--first popup-->
+    <section class="popup">
+        <article>
+            <img src="images/andrew-ruiz-348421.jpg" alt="An astronaut mannequin in a yellow space suit and helmet seated inside a spacecraft cockpit, pointing toward control panels behind glass.">
+            <div class="content">
+                <p>Visiting professor of Aeronautics <br>
+                <span style="color: red;">Date:</span> 3 Oct 2025, 16:00 </p>
+                
+                <label for="popup-1" class="more">More info</label>
+            </div>
+
+
+<!--checkbox toggle-->
+            <input type="checkbox" id="popup-1" class="modal-toggle">
+<!--modal-->
+            <div class="modal" role="dialog"    aria-labelledby="modal-title-1" aria-describedby="modal-desc-1" aria-modal="true">
+                <label for="popup-1" class="overlay" aria-label="close"></label>
+
+
+                <div class="modal-content">
+                    <h3 id="modal-title-1">Visiting professor of Aeronautics</h3>
+                    <p id="modal-desc-1">
+                        It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.
+                    </p>
+                    <label for="popup-1" class="close">Close</label>
+                </div>
+            </div>
+        </article>
+<!--second popup-->
+        <article>
+            <img src="images/mammoth-1257288_1920.jpg" alt="Large mammoth skeleton on display in a museum, with a visitor standing nearby for scale.">
+            <div class="content">
+                <p>Night in museum <br>
+                <span style="color: red;">Date:</span> 11 Oct 2025, 17:00-21:00 </p>
+                <label for="popup-2" class="more">More info</label> 
+            </div>
+            
+
+<!--checkbox toggle-->
+            <input type="checkbox" id="popup-2" class="modal-toggle">
+<!--modal-->
+            <div class="modal" role="dialog" aria-labelledby="modal-title-2"              aria-describedby="modal-desc-2"             aria-modal="true">
+                <label for="popup-2" class="overlay" aria-label="close"></label>
+                <div class="modal-content">
+                    <h3 id="modal-title-2">Night in museum</h3>
+                    <p id="modal-desc-2">
+                        Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.
+                    </p>
+                    <label for="popup-2" class="close">Close</label>
+                </div>
+            </div>
+        </article>
+<!--third popup-->
+        <article>
+            <img src="images/scientific-2040795_1280.jpg" alt="Scientist in protective clothing and safety glasses operating a large metallic scientific machine in a laboratory.">
+            <div class="content">
+                <p>Energetica Exhibition on loan <br>
+                <span style="color: red;">Date:</span> 25 Oct 2025 & 26 Oct, 15:00 </p>
+                <label for="popup-3" class="more">More info</label> 
+            </div>
+            
+
+<!--checkbox toggle-->
+            <input type="checkbox" id="popup-3" class="modal-toggle">
+<!--modal-->
+            <div class="modal" role="dialog" aria-labelledby="modal-title-3"                aria-describedby="modal-desc-3" aria-modal="true">
+                <label for="popup-3" class="overlay" aria-label="close"></label>
+                <div class="modal-content">
+                    <h3 id="modal-title-3">Energetica Exhibition on loan</h3>
+                    <p id="modal-desc-3">
+                        On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. It’s a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.
+                    </p>
+                    <label for="popup-3" class="close">Close</label>
+                </div>
+            </div>
+        </article>
+    </section>
     </main>
+
     <footer class="footer">
     <div class="footer-bar">
         <img src="images/CSM.png" alt="Museum-logo" class="logo">
         <span class="museum-name"><a href="index.html">Community Science Museum</a></span>
-        &copy;
+        &copy; 2025 September
     </div>
     </footer>
 </body>
