@@ -10,20 +10,28 @@
 <body>
     <header>
         <div class="header-bar">
-            <img src="images/CSM.png" alt="Museum-logo" class="logo">
-            <span class="museum-name"><a href="index.html">Community Science Museum</a></span>
-        </div>
-        <section class="header-content">
-            <nav>
-                <ul class="header-list">
-                    <li><a href="./visit.html">Visit us</a></li>
-                    <li><a href="./contact.html">Contact us</a></li>
-                    <li><a href="./involved.html">Get involved</a></li>
-                    <li><a href="./about-us.html">About us</a></li>
+            <div class="logo-wrap">
+                <img src="images/CSM.png" alt="community science Museumlogo" class="logo">
+                <span class="museum-name"><a href="index.html">Community Science Museum</a></span>
+            </div>
 
-                </ul>
-            </nav>
-        </section>
+<!--hamburger toggle (hidden over 600px)-->
+            <label for="nav-toggle" class="hamburger" aria-label="toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+<!--navigation-->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+        <nav class="header-content" role="navigation">
+            <ul class="header-list">
+                <li><a href="./visit.html">Visit us</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+                <li><a href="./involved.html">Get involved</a></li>
+                <li><a href="./about-us.html">About us</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <h1>Teachers</h1>
@@ -34,11 +42,13 @@
         <p>Please get in touch with us here to find out more about our facilities and to arrange a time to bring your students through for a visit.</p><br>
     </main>
     <footer class="footer">
-    <div class="footer-bar">
-        <img src="images/CSM.png" alt="Museum-logo" class="logo">
-        <span class="museum-name"><a href="index.html">Community Science Museum</a></span>
-        &copy; 2025 September
-    </div>
+        <div class="footer-bar">
+            <div class="footer-left">
+                <img src="images/CSM.png" alt="Museum-logo" class="logo">
+                <span class="museum-name"><a href="index.html">Community Science Museum</a></span>             
+            </div>
+            <div class="footer-right"> &copy; 2025 September</div>
+        </div>
     </footer>
 </body>
 </html>
