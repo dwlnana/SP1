@@ -352,6 +352,18 @@ main{
 }
 
 
+/*icon back and forward to pages */
+.material-icons-outlined {
+    font-size: 30px;
+    color: #a36200;
+    padding-left: 20px;
+}
+
+a:hover .material-icons-outlined{
+    color: #007e94;
+}
+
+
 
 /*for mobile screens */
 
