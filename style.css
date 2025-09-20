@@ -1,3 +1,17 @@
+h1, h2, .ellipses, .explore-pages, .cta-button{
+    font-family: "Ribeye", serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p, .footer-right{
+    font-family: "Roboto", sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+.h1-hamburger_pages{
+    font-family: "Merriweather Sans", sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+}
 body{
 
     background-color: #faf9f6;    
@@ -15,7 +29,8 @@ a{
     text-decoration: none;
     color: #faf9f6 ;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 400;
+    font-family: "Ribeye", "serif" , Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*header design*/
@@ -79,9 +94,13 @@ header{
 .header-list li a{
     text-decoration: none;
     color: #faf9f6;
+    font-family: "Merriweather Sans", sans-serif, Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
 .header-list li a:hover {
     text-decoration: underline;
+    color: #a36200;
 }
 
 /*show menu  when checkbox checked*/
@@ -165,6 +184,7 @@ main{
     color: #faf9f6;
     display: flex;
     margin-right: 40px;
+    font-size: 12px;
 }
 .h2-popup, .h1-main{
     text-align: center;
@@ -363,6 +383,61 @@ a:hover .material-icons-outlined{
     color: #007e94;
 }
 
+/*Kids*/
+
+.explore-content img, .exhibition-main img{
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+.explore-content, .exhibition-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.explore-text, .exhibition-text, .hamburger_pages-text{
+    font-size: 0.9rem;
+    line-height: 2.2;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.highlight{
+    font-weight: bold;
+    color: red;
+}
+
+/*hamburger pages */
+.h1-hamburger_pages{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*special events and exhibition */
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/*arrows for hamburger pages*/
+
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 
 /*for mobile screens */
